@@ -1,0 +1,31 @@
+.skills {
+  background-color: #dcdce6;
+  width: 100vw;
+  padding: $marginFromLeft;
+  box-shadow: 0 1px 6px 2px rgb(109, 109, 109);
+  font-family: "Lato", sans-serif;
+
+  &__title {
+    margin: $marginFromLeft 0;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__listOfMainTech,
+  &__listOfOtherTech,
+  &__listOfLang {
+    list-style: none;
+    // font-family: $lato;
+    font-weight: 300;
+    margin: 0 $marginFromLeft;
+    line-height: 1.6;
+    font-size: 20px;
+
+    p {
+      background-color: #ffffffbd;
+      margin: 8px 0;
+      padding: 10px 15px;
+      color: #333;
+    }
+  }
+}

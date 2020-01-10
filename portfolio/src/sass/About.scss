@@ -1,0 +1,19 @@
+.about{
+  margin: $marginFromLeft*2 $marginFromLeft;
+  font-family: $lato;
+  font-weight: 300;
+
+
+  &__title{
+    margin: $marginFromLeft 0;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__description{
+    &--text{
+      font-size: $fSizeAbout;
+      line-height: 1.5;
+    }
+  }
+}

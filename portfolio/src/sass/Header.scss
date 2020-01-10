@@ -1,0 +1,30 @@
+.header {
+  /* background-color: #282c34; */
+  position: relative;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 7px rgb(56, 56, 56);
+
+
+  &__bgc {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__description {
+    margin: 20% $marginFromLeft;
+    font-size: $fSizeHeader;
+    font-family: $sourcesanspro;
+
+    &--job {
+      padding: 10px 0;
+      font-size: $fSizeHeader / 2;
+    }
+  }
+}
