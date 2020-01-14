@@ -1,0 +1,83 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+
+  margin: $marginFromLeft * 2 $marginFromLeft;
+  font-family: $lato;
+
+  &__title {
+    width: 100vw;
+    margin: $marginFromLeft 0;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__project {
+    position: relative;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    @include breakpoint(xs){
+      margin: 5px 60px;
+    }
+
+    @include breakpoint(sm){
+      margin: 5px 120px;
+    }
+
+    @include breakpoint(md){
+      margin: 0;
+      flex-basis: 400px;
+    }
+
+    &--about {
+      opacity: 0;
+      padding: 25px;
+      margin: 5px 0;
+      background-color: #f7f3f8ab;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      line-height: 160%;
+      transition: 0.3s;
+
+      @include breakpoint(xs){
+        margin: 5px 0;
+      }
+      @include breakpoint(xs){
+        margin: 5px 0;
+      }
+
+      &__Boxlink {
+        &--link {
+          color: black;
+        }
+      }
+    }
+
+    &:hover &--about {
+      opacity: 1;
+    }
+
+    &--img {
+      position: relative;
+      width: 100%;
+      margin: 5px 0;
+      border: 1px solid rgb(151, 151, 151);
+    }
+  }
+}
+
+@keyframes opacityProject {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

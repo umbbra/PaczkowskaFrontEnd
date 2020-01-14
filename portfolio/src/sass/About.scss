@@ -1,8 +1,15 @@
 .about{
-  margin: $marginFromLeft*2 $marginFromLeft;
+  margin: $marginFromLeft*4 $marginFromLeft;
   font-family: $lato;
   font-weight: 300;
 
+  @include breakpoint(xs){
+    margin: $marginFromLeft*4 60px;
+  }
+
+  @include breakpoint(sm){
+    margin: $marginFromLeft*4 100px;
+  }
 
   &__title{
     margin: $marginFromLeft 0;
@@ -14,6 +21,7 @@
     &--text{
       font-size: $fSizeAbout;
       line-height: 1.5;
+      
     }
   }
 }

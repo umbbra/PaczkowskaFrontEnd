@@ -1,12 +1,22 @@
 .skills {
-  background-color: #dcdce6;
+  background-color: #444349;
+
+  background-image: url("../images/stardust.png");
+  background-attachment: fixed;
   width: 100vw;
-  padding: $marginFromLeft;
+  padding: $marginFromLeft $marginFromLeft $marginFromLeft * 3;
   box-shadow: 0 1px 6px 2px rgb(109, 109, 109);
   font-family: "Lato", sans-serif;
+  color: white;
+
+  @include breakpoint(sm){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   &__title {
-    margin: $marginFromLeft 0;
+    margin: $marginFromLeft * 2 0 $marginFromLeft;
     font-weight: 400;
     text-align: center;
   }
@@ -15,17 +25,25 @@
   &__listOfOtherTech,
   &__listOfLang {
     list-style: none;
-    // font-family: $lato;
     font-weight: 300;
     margin: 0 $marginFromLeft;
     line-height: 1.6;
     font-size: 20px;
 
     p {
-      background-color: #ffffffbd;
-      margin: 8px 0;
+      background-color: #ffffff67;
+      margin: 8px auto;
       padding: 10px 15px;
-      color: #333;
+      color: white;
+      transition: 0.2s;
+      border-radius: 2px;
+      max-width: 350px;
+      min-width: 300px;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.541);
+        // color: #333;
+      }
     }
   }
 }

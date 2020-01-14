@@ -6,11 +6,12 @@ const Header = () => {
     <header className="header">
       <img className="header__bgc" src={bgcHeader} alt="Background of Header" />
       <div className="header__description">
-        <p>Patrycja</p>
-        <p>Paczkowska</p>
-        <p className="header__description--job">Front-End Developer</p>
+        <p className="header__description--name">Patrycja</p>
+        <p className="header__description--surname">Paczkowska</p>
+        <p className="header__description--job">Junior Front-End Developer</p>
       </div>
     </header>
+
   );
 };
 

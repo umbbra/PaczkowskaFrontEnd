@@ -2,6 +2,7 @@
   /* background-color: #282c34; */
   position: relative;
   min-height: 250px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -18,13 +19,61 @@
   }
 
   &__description {
+    position: relative;
     margin: 20% $marginFromLeft;
     font-size: $fSizeHeader;
     font-family: $sourcesanspro;
+    // left: -80%;
 
-    &--job {
+    @include breakpoint(xs){
+      margin: 20% 60px;
+    }
+
+    @include breakpoint(sm){
+      font-size: $fSizeHeader*1.5;
+    }
+
+    &--name{
+      
+      animation: showName .3s linear;
+    }
+
+    &--surname{
+      
+      animation: showSurname .5s .1s linear both;
+    }
+
+    &--job { 
+      // transform: translateX(-100%);
       padding: 10px 0;
       font-size: $fSizeHeader / 2;
+      animation: showJob .3s .6s linear both;
+
+      @include breakpoint(sm){
+        font-size: $fSizeHeader*0.75;
+      }
     }
   }
+}
+
+
+@keyframes showName {
+  0%{ transform: translateY(-200%); opacity: 0;}
+  100%{ transform: translateY(0); opacity: 1;}
+}
+
+@keyframes showSurname {
+  0%{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100%{ transform: translateX(0); opacity: 1;}
+}
+
+@keyframes showJob {
+  0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100%{ transform: translateY(0); opacity: 1;}
 }

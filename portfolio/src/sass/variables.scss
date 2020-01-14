@@ -10,3 +10,13 @@ $lato: 'Lato', sans-serif;
 
 //margin
 $marginFromLeft: 20px;
+
+//maps of breakpoints
+
+$breakpoints: (
+  xs: 512px,
+  sm: 768px,
+  md: 896px,
+  lg: 1152px,
+  xl: 1280px
+)
