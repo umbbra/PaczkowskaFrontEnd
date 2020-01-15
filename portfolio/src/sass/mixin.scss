@@ -3,19 +3,8 @@
     @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
       @content;
     }
-  } @else if
-    type_of($breakpoint) ==
-    number and
-    unit
-    ($breakpoint) ==
-    px or
-    unit
-    ($breakpoint) ==
-    em or
-    unit($breakpoint) ==
-    rem
-  {
-    @media (min-width: $breakpoint) {
+  } @else if type_of( $breakpoint ) == number and unit( $breakpoint ) == px or unit( $breakpoint ) == em or unit( $breakpoint ) == rem {
+    @media (min-width: $breakpoint ) {
       @content;
     }
   } @else {

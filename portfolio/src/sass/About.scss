@@ -1,27 +1,39 @@
-.about{
+.about {
   margin: $marginFromLeft*4 $marginFromLeft;
   font-family: $lato;
   font-weight: 300;
+  max-width: 1000px;
 
-  @include breakpoint(xs){
-    margin: $marginFromLeft*4 60px;
+
+  @include breakpoint(xs) {
+    margin: $marginFromLeft * 4 60px;
   }
 
-  @include breakpoint(sm){
-    margin: $marginFromLeft*4 100px;
+  @include breakpoint(sm) {
+    margin: $marginFromLeft * 4 100px;
   }
 
-  &__title{
+  @include breakpoint(xl) {
+    margin: $marginFromLeft*4 auto;
+  }
+  
+  &__title {
     margin: $marginFromLeft 0;
     font-weight: 400;
     text-align: center;
+
+    @include breakpoint(md) {
+      margin: $marginFromLeft 0;
+      text-align: left;
+      font-size: 25px;
+    }
   }
 
-  &__description{
-    &--text{
+  &__description {
+
+    &--text {
       font-size: $fSizeAbout;
       line-height: 1.5;
-      
     }
   }
 }

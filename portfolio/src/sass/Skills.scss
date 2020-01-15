@@ -3,13 +3,13 @@
 
   background-image: url("../images/stardust.png");
   background-attachment: fixed;
-  width: 100vw;
+  // width: 100vw;
   padding: $marginFromLeft $marginFromLeft $marginFromLeft * 3;
   box-shadow: 0 1px 6px 2px rgb(109, 109, 109);
   font-family: "Lato", sans-serif;
   color: white;
 
-  @include breakpoint(sm){
+  @include breakpoint(sm) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,6 +19,11 @@
     margin: $marginFromLeft * 2 0 $marginFromLeft;
     font-weight: 400;
     text-align: center;
+    @include breakpoint(md) {
+      margin: $marginFromLeft * 1.5 $marginFromLeft;
+      text-align: left;
+      font-size: 25px;
+    }
   }
 
   &__listOfMainTech,
@@ -26,10 +31,12 @@
   &__listOfLang {
     list-style: none;
     font-weight: 300;
-    margin: 0 $marginFromLeft;
     line-height: 1.6;
     font-size: 20px;
 
+    @include breakpoint(sm) {
+      margin: 0 5px;
+    }
     p {
       background-color: #ffffff67;
       margin: 8px auto;

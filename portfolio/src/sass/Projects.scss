@@ -6,56 +6,98 @@
   align-items: flex-start;
   align-content: center;
 
-  margin: $marginFromLeft * 2 $marginFromLeft;
+  margin: $marginFromLeft*2 $marginFromLeft $marginFromLeft*4;
   font-family: $lato;
+  max-width: 1200px;
+
+  @include breakpoint(lg) {
+    margin: $marginFromLeft * 2 auto;
+  }
 
   &__title {
     width: 100vw;
     margin: $marginFromLeft 0;
     font-weight: 400;
     text-align: center;
+
+    @include breakpoint(md) {
+      margin: $marginFromLeft * 2 $marginFromLeft * 4;
+      text-align: left;
+      font-size: 40px;
+    }
+
+    @include breakpoint(lg) {
+      margin: $marginFromLeft * 2 $marginFromLeft * 6;
+    }
   }
 
   &__project {
     position: relative;
-    flex: 0 1 auto;
-    align-self: auto;
+    width: 400px;
+    height: 212px;
+    margin: 15px 0;
+    box-shadow: 0px 0px 6px gray;
 
-    @include breakpoint(xs){
+
+    @include breakpoint(xs) {
       margin: 5px 60px;
     }
 
-    @include breakpoint(sm){
+    @include breakpoint(sm) {
       margin: 5px 120px;
     }
 
-    @include breakpoint(md){
-      margin: 0;
+    @include breakpoint(md) {
+      margin: 15px 0;
       flex-basis: 400px;
+    }
+
+    @include breakpoint(lg) {
+      margin: 20px 80px;
     }
 
     &--about {
       opacity: 0;
-      padding: 25px;
-      margin: 5px 0;
-      background-color: #f7f3f8ab;
       position: absolute;
-      height: 100%;
-      width: 100%;
+      background-color: #ffffffc2;
       z-index: 2;
-      line-height: 160%;
+      height: 100%;
+      padding: 25px;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
       transition: 0.3s;
+      font-size: 18px;
+      border: 1px solid rgb(73, 73, 73);
 
-      @include breakpoint(xs){
-        margin: 5px 0;
-      }
-      @include breakpoint(xs){
-        margin: 5px 0;
-      }
-
-      &__Boxlink {
+      &__boxlink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 10px;
+        left:50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
         &--link {
-          color: black;
+          display: flex;
+          justify-content: space-around;
+          align-items: flex-start;
+          align-content: center;
+          width: 100px;
+          margin: 10px;
+          border: 1px solid rgb(54, 54, 54);
+          border-radius: 8px;
+          padding: 10px;
+          color: rgb(54, 54, 54);
+          text-decoration: none;
+          font-size: 18px;
+          transition: .3s;
+
+          &:hover{
+            color: black;
+            border-color: black;
+            background-color: white;
+          }
         }
       }
     }
@@ -67,7 +109,7 @@
     &--img {
       position: relative;
       width: 100%;
-      margin: 5px 0;
+      height: 212px;
       border: 1px solid rgb(151, 151, 151);
     }
   }

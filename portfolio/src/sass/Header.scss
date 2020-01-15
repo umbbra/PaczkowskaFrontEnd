@@ -1,5 +1,8 @@
 .header {
-  /* background-color: #282c34; */
+  background-color: #d1d1db; 
+  background-image: url('../images/tlo500.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   min-height: 250px;
   max-height: 500px;
@@ -8,6 +11,28 @@
   overflow: hidden;
   box-shadow: 0 0 7px rgb(56, 56, 56);
 
+  @include breakpoint(sm){
+    background-image: url('../images/tlo800.jpg');
+  }
+
+  @include breakpoint(md){
+    background-attachment: fixed;
+    background-position-x: 60%;
+   }
+
+  @include breakpoint(lg){
+    background-image: url('../images/tlo1200.jpg');
+    background-position-x: 0;
+   }
+
+  @include breakpoint(xl){
+   background-image: url('../images/tlo2000.jpg');
+  }
+
+  @include breakpoint(xxl){
+    background-image: url('../images/tlo4000.jpg');
+   }
+ 
 
   &__bgc {
     position: absolute;
@@ -33,9 +58,26 @@
       font-size: $fSizeHeader*1.5;
     }
 
+    @include breakpoint(md){
+      font-size: 40px;
+      margin: 10% 290px;
+     }
+
+     @include breakpoint(xl){
+      margin: 10% 390px;
+     }
+
+     @include breakpoint(xxl){
+      margin: 10% 490px;
+     }
+
     &--name{
       
-      animation: showName .3s linear;
+      animation: showName .3s;
+      // animation-timing-function:cubic-bezier(0.1, 0.8, 0.8, 0.1);
+  
+        animation-timing-function: cubic-bezier(.9,.03,.69,.22)
+      
     }
 
     &--surname{
