@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:100,200,300|Source+Sans+Pro:100,200,300&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap&subset=latin-ext');
 
+html {
+  scroll-behavior: smooth;
+}
+
 @import 'reset';
 @import 'variables';
 @import 'mixin';

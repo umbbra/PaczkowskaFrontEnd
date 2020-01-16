@@ -1,7 +1,7 @@
 import React from "react";
 const Skills = () => {
   return (
-    <section className="skills">
+    <section id="tech" className="skills">
       <div className="skills__skill">
         <h2 className="skills__title">Main technologies</h2>
         <section className="skills__listOfMainTech">

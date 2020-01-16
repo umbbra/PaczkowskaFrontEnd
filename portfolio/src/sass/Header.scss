@@ -47,7 +47,7 @@
     position: relative;
     margin: 20% $marginFromLeft;
     font-size: $fSizeHeader;
-    font-family: $sourcesanspro;
+    font-family: $sourcesanspro, Arial, Helvetica, sans-serif;
     // left: -80%;
 
     @include breakpoint(xs){

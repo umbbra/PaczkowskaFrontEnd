@@ -7,17 +7,21 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Footer from "./Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  
+
+  render() {
+    return (
+      <div className="App">
+        <Nav />
+        <Header />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
