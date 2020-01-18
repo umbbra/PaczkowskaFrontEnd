@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio---Paczkowska/static/css/main.8dc82839.chunk.css",
+    "main.js": "/Portfolio---Paczkowska/static/js/main.9267701c.chunk.js",
+    "main.js.map": "/Portfolio---Paczkowska/static/js/main.9267701c.chunk.js.map",
+    "runtime-main.js": "/Portfolio---Paczkowska/static/js/runtime-main.298c62b1.js",
+    "runtime-main.js.map": "/Portfolio---Paczkowska/static/js/runtime-main.298c62b1.js.map",
+    "static/js/2.e28b6f91.chunk.js": "/Portfolio---Paczkowska/static/js/2.e28b6f91.chunk.js",
+    "static/js/2.e28b6f91.chunk.js.map": "/Portfolio---Paczkowska/static/js/2.e28b6f91.chunk.js.map",
+    "index.html": "/Portfolio---Paczkowska/index.html",
+    "precache-manifest.2831517f6ddefa4c95ade718c627b786.js": "/Portfolio---Paczkowska/precache-manifest.2831517f6ddefa4c95ade718c627b786.js",
+    "service-worker.js": "/Portfolio---Paczkowska/service-worker.js",
+    "static/css/main.8dc82839.chunk.css.map": "/Portfolio---Paczkowska/static/css/main.8dc82839.chunk.css.map",
+    "static/js/2.e28b6f91.chunk.js.LICENSE": "/Portfolio---Paczkowska/static/js/2.e28b6f91.chunk.js.LICENSE",
+    "static/media/me.jpg": "/Portfolio---Paczkowska/static/media/me.5710582f.jpg",
+    "static/media/portfolio.jpg": "/Portfolio---Paczkowska/static/media/portfolio.40e77881.jpg",
+    "static/media/salonpiekna.jpg": "/Portfolio---Paczkowska/static/media/salonpiekna.1d3c8024.jpg",
+    "static/media/savings.jpg": "/Portfolio---Paczkowska/static/media/savings.543bb346.jpg",
+    "static/media/simplePage.jpg": "/Portfolio---Paczkowska/static/media/simplePage.9fb60141.jpg",
+    "static/media/main.scss": "/Portfolio---Paczkowska/static/media/tlo800.6914b8c1.jpg",
+    "static/media/todo.jpg": "/Portfolio---Paczkowska/static/media/todo.e8673615.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.298c62b1.js",
+    "static/js/2.e28b6f91.chunk.js",
+    "static/css/main.8dc82839.chunk.css",
+    "static/js/main.9267701c.chunk.js"
+  ]
+}
