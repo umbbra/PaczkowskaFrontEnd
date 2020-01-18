@@ -2,6 +2,7 @@ import React from "react";
 const Skills = () => {
   return (
     <section id="tech" className="skills">
+      <h2 className="skills__mainTitle">Technological stack</h2>
       <div className="skills__skill">
         <h2 className="skills__title">Main technologies</h2>
         <section className="skills__listOfMainTech">

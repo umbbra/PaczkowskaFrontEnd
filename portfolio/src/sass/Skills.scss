@@ -15,7 +15,8 @@
     justify-content: center;
   }
 
-  &__title {
+  &__title,
+  &__mainTitle {
     margin: $marginFromLeft * 2 0 $marginFromLeft;
     font-weight: 400;
     text-align: center;
@@ -24,6 +25,11 @@
       text-align: left;
       font-size: 25px;
     }
+  }
+  &__mainTitle {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
   }
 
   &__listOfMainTech,

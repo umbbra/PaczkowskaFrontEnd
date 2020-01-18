@@ -11,17 +11,20 @@ const Article = props => {
   return (
     <article className="projects__project">
       <div className="projects__project--about">
+        <h5 className="projects__project--about--title">{props.title}</h5>
         <p>{props.text}</p>
         <div className="projects__project--about__boxlink">
           <a
             className="projects__project--about__boxlink--link"
             href={props.linkLive}
+            target="_blank"
           >
             <VisibilityIcon /> Live
           </a>
           <a
             className="projects__project--about__boxlink--link"
             href={props.linkCode}
+            target="_blank"
           >
             <CodeIcon /> Code
           </a>
@@ -42,6 +45,7 @@ const Projects = () => {
       <h1 className="projects__title">Projects</h1>
 
       <Article
+        title="Beauty Salon"
         text="Created in JavaScript, Css, Flexbox, RWD."
         linkLive="https://umbbra.github.io/SalonPieknosci/"
         linkCode="https://github.com/umbbra/SalonPieknosci"
@@ -49,6 +53,7 @@ const Projects = () => {
         alt="Beauty Salon picture"
       />
       <Article
+        title="Old Portfolio"
         text="Created in React, ScrollReveal, jQuery, RWD."
         linkLive="https://umbbra.github.io/Portfolio/"
         linkCode="https://github.com/umbbra/Portfolio/"
@@ -56,6 +61,7 @@ const Projects = () => {
         alt="Old Portfolio picture"
       />
       <Article
+        title="Savings application"
         text="Created in React, Sass, Flexbox, RWD."
         linkLive="https://umbbra.github.io/savings/"
         linkCode="https://github.com/umbbra/savings"
@@ -63,14 +69,16 @@ const Projects = () => {
         alt="Savings app picture"
       />
       <Article
-        text="Created in React, Css."
+        title="ToDo application"
+        text="Created in React, Css, RWD."
         linkLive="https://umbbra.github.io/todoapp/"
         linkCode="https://github.com/umbbra/todoapp/"
         picture={todo}
         alt="Todo app picture"
       />
       <Article
-        text="Created in React, Css."
+        title="Simply Page"
+        text="Created in HTML, Sass, Flexbox, RWD."
         linkLive="https://umbbra.github.io/Flexbox-simplyPage/"
         linkCode="https://github.com/umbbra/Flexbox-simplyPage/"
         picture={simplePage}

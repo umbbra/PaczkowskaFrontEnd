@@ -6,7 +6,7 @@
   align-items: flex-start;
   align-content: center;
 
-  margin: $marginFromLeft*2 $marginFromLeft $marginFromLeft*4;
+  margin: $marginFromLeft * 2 $marginFromLeft $marginFromLeft * 4;
   font-family: $lato;
   max-width: 1200px;
 
@@ -38,7 +38,6 @@
     margin: 15px 0;
     box-shadow: 0px 0px 6px gray;
 
-
     @include breakpoint(xs) {
       margin: 5px 60px;
     }
@@ -69,14 +68,23 @@
       transition: 0.3s;
       font-size: 18px;
       border: 1px solid rgb(168, 168, 168);
+      &--title {
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(172, 172, 172);
+        color: gray;
+        font-size: 20px;
+        font-family: $lato;
+        font-weight: 400;
 
+      }
       &__boxlink {
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
         bottom: 10px;
-        left:50%;
+        left: 50%;
         transform: translateX(-50%);
         margin: 0 auto;
         &--link {
@@ -92,10 +100,10 @@
           color: rgb(54, 54, 54);
           text-decoration: none;
           font-size: 18px;
-          transition: .3s;
+          transition: 0.3s;
           cursor: pointer;
 
-          &:hover{
+          &:hover {
             color: black;
             border-color: black;
             background-color: white;

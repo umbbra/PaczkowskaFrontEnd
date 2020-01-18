@@ -3,13 +3,18 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import { GitHub } from "@material-ui/icons";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
-const LinkSocial = (props) => {
-  return(
-    <a href={props.link} className="contact__social--item" target="_blank" rel="noopener noreferrer">
-          {props.icon}
-        </a>
-  )
- }
+const LinkSocial = props => {
+  return (
+    <a
+      href={props.link}
+      className="contact__social--item"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {props.icon}
+    </a>
+  );
+};
 const Footer = () => {
   const style = {
     fontSize: 50
@@ -20,9 +25,18 @@ const Footer = () => {
       <p className="contact__phone">882 - 813 - 487</p>
       <p className="contact__email">paczkowska.umbbra@gmail.com</p>
       <div className="contact__social">
-        <LinkSocial link="https://www.facebook.com/patrycja.paczkowska.336" icon={<FacebookIcon style={style} />}/>
-        <LinkSocial link="https://github.com/umbbra" icon={<GitHub style={style} />}/>
-        <LinkSocial link="https://www.facebook.com/patrycja.paczkowska.336" icon={<LinkedInIcon style={style} />}/>
+        <LinkSocial
+          link="https://www.facebook.com/patrycja.paczkowska.336"
+          icon={<FacebookIcon style={style} />}
+        />
+        <LinkSocial
+          link="https://github.com/umbbra"
+          icon={<GitHub style={style} />}
+        />
+        <LinkSocial
+          link="https://www.linkedin.com/in/patrycja-paczkowska-172667182/"
+          icon={<LinkedInIcon style={style} />}
+        />
       </div>
       <p className="contact__copy">© 2020 Patrycja Paczkowska</p>
     </section>
