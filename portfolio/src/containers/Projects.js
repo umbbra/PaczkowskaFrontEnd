@@ -18,6 +18,7 @@ const Article = props => {
             className="projects__project--about__boxlink--link"
             href={props.linkLive}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <VisibilityIcon /> Live
           </a>
@@ -25,6 +26,7 @@ const Article = props => {
             className="projects__project--about__boxlink--link"
             href={props.linkCode}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <CodeIcon /> Code
           </a>

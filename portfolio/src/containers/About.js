@@ -18,7 +18,7 @@ const About = () => {
           <img
             className="about__description__image--picture"
             src={photoOfMe}
-            alt="photo"
+            alt="photo of my person"
           />
         </div>
         <div className="about__description__text2">
