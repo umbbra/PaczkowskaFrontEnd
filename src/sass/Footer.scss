@@ -6,17 +6,19 @@
   text-align: center;
   color: white;
   font-family: "Lato", sans-serif;
+  font-size: $fzGlobal;
 
   &__title{
     margin: $marginFromLeft;
     font-weight: 400;
+    font-size: 4em;
     @include breakpoint(sm){
-      font-size: 40px;
+      font-size: 7em;
     }
   }
 
   &__email, &__phone{
-    font-size: $fSizeAbout;
+    font-size: 2.5em;
     color: rgb(255, 255, 255);
     
   }
@@ -37,5 +39,8 @@
     }
 
     
+  }
+  &__copy{
+    font-size: 1.5em;
   }
 }

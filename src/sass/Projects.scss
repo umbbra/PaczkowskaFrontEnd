@@ -9,6 +9,7 @@
   margin: $marginFromLeft * 2 $marginFromLeft $marginFromLeft * 4;
   font-family: $lato;
   max-width: 1200px;
+  font-size: $fzGlobal;
 
   @include breakpoint(lg) {
     margin: $marginFromLeft * 2 auto;
@@ -19,11 +20,11 @@
     margin: $marginFromLeft 0;
     font-weight: 400;
     text-align: center;
+    font-size: 4em;
 
     @include breakpoint(md) {
       margin: $marginFromLeft * 2 $marginFromLeft * 4;
       text-align: left;
-      font-size: 40px;
     }
 
     @include breakpoint(lg) {
@@ -69,7 +70,7 @@
       color: rgb(0, 0, 0);
       font-weight: 500;
       transition: 0.3s;
-      font-size: 16px;
+      font-size: 2em;
       border: 1px solid rgb(168, 168, 168);
      
       &--title {
@@ -77,10 +78,9 @@
         padding-bottom: 15px;
         border-bottom: 1px solid rgb(172, 172, 172);
         color: gray;
-        font-size: 18px;
         font-family: $lato;
         font-weight: 400;
-
+        font-size: 1.2em;
       }
       &__boxlink {
         display: flex;

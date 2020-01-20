@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c5aa872eb1904b449cea0dc27f646c6",
+    "revision": "54afeb029a65d4f998c1488b972b090f",
     "url": "/PaczkowskaFrontEnd/index.html"
   },
   {
-    "revision": "2a25dbe89b71fe351663",
-    "url": "/PaczkowskaFrontEnd/static/css/main.1753f793.chunk.css"
+    "revision": "2a24d189d0294dec0a7b",
+    "url": "/PaczkowskaFrontEnd/static/css/main.1764a942.chunk.css"
   },
   {
     "revision": "9cf4f1511b090235fcbe",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaczkowskaFrontEnd/static/js/2.e28b6f91.chunk.js.LICENSE"
   },
   {
-    "revision": "2a25dbe89b71fe351663",
+    "revision": "2a24d189d0294dec0a7b",
     "url": "/PaczkowskaFrontEnd/static/js/main.45b62d0e.chunk.js"
   },
   {

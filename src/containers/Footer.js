@@ -1,7 +1,7 @@
 import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import { GitHub } from "@material-ui/icons";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { Facebook, GitHub, LinkedIn } from "@material-ui/icons/";
+// import { GitHub } from "@material-ui/icons";
+// import LinkedInIcon from "@material-ui/icons/";
 
 const LinkSocial = props => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="contact__social">
         <LinkSocial
           link="https://www.facebook.com/patrycja.paczkowska.336"
-          icon={<FacebookIcon style={style} />}
+          icon={<Facebook style={style} />}
         />
         <LinkSocial
           link="https://github.com/umbbra"
@@ -35,7 +35,7 @@ const Footer = () => {
         />
         <LinkSocial
           link="https://www.linkedin.com/in/patrycja-paczkowska-172667182/"
-          icon={<LinkedInIcon style={style} />}
+          icon={<LinkedIn style={style} />}
         />
       </div>
       <p className="contact__copy">© 2020 Patrycja Paczkowska</p>
