@@ -7,12 +7,8 @@ const About = () => {
 
       <section className="about__description">
         <div className="about__description__text1">
-          I graduated from the Ilawa IT School, passed the E.12, E.13, E.14
-          exams and went abroad to build a financial pillow. All this to become
-          a Front-End Develope without studying! For this purpose, I learned
-          from courses such as: Bartłomiej Borowczyk: "From zero to first job"
-          and UX & UI - the art of useful design.
-          <span className="hobby">Besides all that, my hobby is painting.</span>
+        I graduated from IT School in ZS im. Bohaterów Września z 1939 Roku w Ilawie, passed the E.12, E.13, E.14 exams and went abroad to build a financial cushion. All this to become a Front-End Developer without studying. For this purpose, I learned from online courses such as "From basis to the developer's front-end" course by Bartłomiej Borowczyk and "UX & UI - the art of useful design".  
+          <p className="hobby"> Besides all that, my hobby is painting.</p>
         </div>
         <div className="about__description__image">
           <img
@@ -23,7 +19,7 @@ const About = () => {
         </div>
         <div className="about__description__text2">
           <h3 className="about__description__text2--title">
-            It makes me stand out:{" "}
+          My strengths:
           </h3>
           <ul className="about__description__text2--list">
             <li>Ambition to create new things,</li>
