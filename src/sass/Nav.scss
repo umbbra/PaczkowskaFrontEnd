@@ -29,9 +29,8 @@
       font-family: $lato;
 
       a {
-        margin: 0 auto;
         color: rgb(255, 255, 255);
-        margin: 20px 0;
+        margin: 20px auto;
         cursor: pointer;
       }
     }
@@ -55,7 +54,7 @@
 
   &__desktop {
     display: none;
-    
+
     @include breakpoint(xs) {
       display: block;
       width: 100vw;
