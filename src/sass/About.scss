@@ -55,9 +55,11 @@
     
     &__image,
     &__text2 {
-      margin: 25px 0;
+      margin: 15px 0 0;
       @include breakpoint(xsm) {
         flex-basis: 45%;
+        margin: 25px 0;
+
       }
       @include breakpoint(lg) {
         flex-basis: 30%;

@@ -1,11 +1,10 @@
 .nav {
-  min-height: 8vh;
+  height: 9vh;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   letter-spacing: 3px;
-  // box-shadow: 0 1px 6px 2px #777;
   font-family: $ptsans;
 
   &__mobile {

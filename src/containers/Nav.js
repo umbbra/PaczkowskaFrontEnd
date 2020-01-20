@@ -33,14 +33,6 @@ class Nav extends React.Component {
       click: !this.state.click,
     })
     
-    // if (this.state.click) {
-    //   const btnMenu = document.querySelector(".nav__mobile--openMenu");
-    //   btnMenu.className = "nav__mobile--closedMenu";
-    //   console.log(btnMenu);
-
-    // } else {
-    //   console.log("Zrób to na odwrót");
-    // }
   };
 
   componentDidMount = () => {
@@ -57,7 +49,7 @@ class Nav extends React.Component {
     if (this.state.click) {
       list.style.top = "-100%";
     } else {
-      list.style.top = "8vh";
+      list.style.top = "9vh";
     }
 
     this.setState({
