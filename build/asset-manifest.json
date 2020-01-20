@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PaczkowskaFrontEnd/static/css/main.1753f793.chunk.css",
-    "main.js": "/PaczkowskaFrontEnd/static/js/main.090fc507.chunk.js",
-    "main.js.map": "/PaczkowskaFrontEnd/static/js/main.090fc507.chunk.js.map",
+    "main.js": "/PaczkowskaFrontEnd/static/js/main.45b62d0e.chunk.js",
+    "main.js.map": "/PaczkowskaFrontEnd/static/js/main.45b62d0e.chunk.js.map",
     "runtime-main.js": "/PaczkowskaFrontEnd/static/js/runtime-main.e9622483.js",
     "runtime-main.js.map": "/PaczkowskaFrontEnd/static/js/runtime-main.e9622483.js.map",
     "static/js/2.e28b6f91.chunk.js": "/PaczkowskaFrontEnd/static/js/2.e28b6f91.chunk.js",
     "static/js/2.e28b6f91.chunk.js.map": "/PaczkowskaFrontEnd/static/js/2.e28b6f91.chunk.js.map",
     "index.html": "/PaczkowskaFrontEnd/index.html",
-    "precache-manifest.7747862eb8ac5705a749f334bce44f6d.js": "/PaczkowskaFrontEnd/precache-manifest.7747862eb8ac5705a749f334bce44f6d.js",
+    "precache-manifest.451d2ea93280a693118f33bf3387ada0.js": "/PaczkowskaFrontEnd/precache-manifest.451d2ea93280a693118f33bf3387ada0.js",
     "service-worker.js": "/PaczkowskaFrontEnd/service-worker.js",
     "static/css/main.1753f793.chunk.css.map": "/PaczkowskaFrontEnd/static/css/main.1753f793.chunk.css.map",
     "static/js/2.e28b6f91.chunk.js.LICENSE": "/PaczkowskaFrontEnd/static/js/2.e28b6f91.chunk.js.LICENSE",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.e9622483.js",
     "static/js/2.e28b6f91.chunk.js",
     "static/css/main.1753f793.chunk.css",
-    "static/js/main.090fc507.chunk.js"
+    "static/js/main.45b62d0e.chunk.js"
   ]
 }
