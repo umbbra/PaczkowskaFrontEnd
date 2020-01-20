@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54afeb029a65d4f998c1488b972b090f",
+    "revision": "99c5fa2c66c413e7d3da8b32084305d6",
     "url": "/PaczkowskaFrontEnd/index.html"
   },
   {
-    "revision": "2a24d189d0294dec0a7b",
-    "url": "/PaczkowskaFrontEnd/static/css/main.1764a942.chunk.css"
+    "revision": "ff079e4841b941ce5997",
+    "url": "/PaczkowskaFrontEnd/static/css/main.448130fc.chunk.css"
   },
   {
-    "revision": "9cf4f1511b090235fcbe",
-    "url": "/PaczkowskaFrontEnd/static/js/2.e28b6f91.chunk.js"
+    "revision": "e17036d532bce01cf2b9",
+    "url": "/PaczkowskaFrontEnd/static/js/2.6d51058d.chunk.js"
   },
   {
-    "revision": "a58d60b4914e1164d175ad7f57a8d682",
-    "url": "/PaczkowskaFrontEnd/static/js/2.e28b6f91.chunk.js.LICENSE"
+    "revision": "e2fc3609d47d90b8cc004bfe15ddf15e",
+    "url": "/PaczkowskaFrontEnd/static/js/2.6d51058d.chunk.js.LICENSE"
   },
   {
-    "revision": "2a24d189d0294dec0a7b",
-    "url": "/PaczkowskaFrontEnd/static/js/main.45b62d0e.chunk.js"
+    "revision": "ff079e4841b941ce5997",
+    "url": "/PaczkowskaFrontEnd/static/js/main.dae69bc3.chunk.js"
   },
   {
     "revision": "915137ff0324c8444769",
