@@ -8,6 +8,9 @@ import CodeIcon from "@material-ui/icons/Code";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 
 const Article = props => {
+  const style = {
+    fontSize: 20
+  }
   return (
     <article className="projects__project">
       <div className="projects__project--about">
@@ -20,7 +23,7 @@ const Article = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <VisibilityIcon /> Live
+            <VisibilityIcon style={style}/> Live
           </a>
           <a
             className="projects__project--about__boxlink--link"
@@ -28,7 +31,7 @@ const Article = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <CodeIcon /> Code
+            <CodeIcon style={style}/> Code
           </a>
         </div>
       </div>
