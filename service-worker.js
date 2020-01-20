@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PaczkowskaFrontEnd/precache-manifest.451d2ea93280a693118f33bf3387ada0.js"
+  "/PaczkowskaFrontEnd/precache-manifest.4895dddeba93e8a67e5e599aa5778cfb.js"
 );
 
 self.addEventListener('message', (event) => {
